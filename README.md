@@ -30,5 +30,18 @@ Pretty cool!
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/GPT2-TextGeneration.git
+git clone https://github.com/viraj7676/GPT2-TextGeneration.git
 cd GPT2-TextGeneration
+
+
+
+
+## File Structure ##
+
+GPT2_TextGeneration/
+├── train_gpt2.py          # Training script
+├── generate_text.py       # Text generation script
+├── train.txt              # Training data (create this)
+├── requirements.txt       # Python dependencies
+├── .gitignore            # Git ignore rules
+└── README.md             # This file
