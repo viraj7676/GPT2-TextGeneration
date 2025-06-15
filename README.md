@@ -19,6 +19,10 @@ When I type "Technology will", it generates:
 
 Pretty cool!
 
+## Output 
+![Screenshot 2025-06-15 211126](https://github.com/user-attachments/assets/aee6ec24-b4dd-4a66-b8f1-3fccd8ab4ff5)
+
+
 ## Features
 
 - Fine-tune GPT-2 on custom datasets
@@ -45,3 +49,4 @@ GPT2_TextGeneration/
 ├── requirements.txt       # Python dependencies
 ├── .gitignore            # Git ignore rules
 └── README.md             # This file
+
