@@ -1,53 +1,20 @@
-# GPT-2 Fine-tuning Project
+# My GPT-2 Text Generator
 
-This project provides tools and scripts for fine-tuning GPT-2 models on custom datasets.
+This is my first AI project! I trained a GPT-2 model to generate text.
 
----
+## What it does
+- Trains a GPT-2 model on custom text data
+- Generates new text based on prompts
+- Can be customized for different writing styles
 
-## Prerequisites
+## How to use it
+1. Install Python packages: `pip install transformers torch datasets`
+2. Put your training text in `train.txt`
+3. Run `python train_gpt2.py` to train
+4. Run `python generate_text.py` to generate text
 
-- Python 3.8 or higher  
-- pip package manager  
-- Git (for version control)  
+## Example output
+When I type "Technology will", it generates:
+"Technology will enable companies to build better products and services faster and more effectively."
 
----
-
-## Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd gpt2-finetune
-### 2. Create Virtual Environment
-
-**For Windows:**
-```bash
-python -m venv venv
-venv\Scripts\activate
-
-pip install --upgrade pip
-pip install -r requirements.txt
-
-
-python -c "import torch; print(torch.__version__)"
-python -c "import transformers; print(transformers.__version__)"
-
-
-
-
-gpt2-finetune/
-├── data/                   # Training data directory
-│   ├── raw/               # Raw text files
-│   └── processed/         # Preprocessed datasets
-├── models/                # Saved model checkpoints
-├── scripts/               # Training and utility scripts
-│   ├── train.py          # Main training script
-│   ├── preprocess.py     # Data preprocessing
-│   └── generate.py       # Text generation script
-├── config/                # Configuration files
-│   └── training_config.json
-├── notebooks/             # Jupyter notebooks for analysis
-├── requirements.txt       # Python dependencies
-├── .gitignore             # Git ignore file
-└── README.md              # This file
+Pretty cool!
