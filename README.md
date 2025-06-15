@@ -18,3 +18,17 @@ When I type "Technology will", it generates:
 "Technology will enable companies to build better products and services faster and more effectively."
 
 Pretty cool!
+
+## Features
+
+- Fine-tune GPT-2 on custom datasets
+- Interactive text generation
+- Customizable generation parameters
+- Easy-to-use training script
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YourUsername/GPT2-TextGeneration.git
+cd GPT2-TextGeneration
